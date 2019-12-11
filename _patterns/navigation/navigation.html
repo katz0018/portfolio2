@@ -1,16 +1,11 @@
-<nav role="navigation">
-  <div id="menuToggle">
-    <input type="checkbox">
+<nav class="absolute pad-t-1-2 text-right main" role="navigation" id="navigation">
+  <input type="checkbox" class="nav-check" id="nav-check">
+  <label class="nav-label" for="nav-check"><img class="nav-close" src="/images/exit-nav.svg" alt="exit the navigation"><img class="nav-open" src="/images/nav.svg" alt="open the navigation"></label>
 
-    <span></span>
-    <span></span>
-    <span></span>
-
-  <ul id="menu">
-    <a href="#"><li>Home</li></a>
-    <a href="#"><li>Demo Reel</li></a>
-    <a href="#"><li>Projects</li></a>
-    <a href="#"><li>About Me</li></a>
+  <ul class="nav pad-t" id="menu">
+    {% pattern buttons/btn-nav url="/index/" text="Home" %}
+    {% pattern buttons/btn-nav url="/#motion-reel" text="Demo Reel" %}
+    {% pattern buttons/btn-nav url="/#projects" text="Projects" %}
+    {% pattern buttons/btn-nav url="/#about-me" text="About Me" %}
   </ul>
- </div>
 </nav>
