@@ -19,7 +19,7 @@
 }
 
 .color-nav-btn:hover {
-  color: var(--color-primary);
+  color: #fff;
 }
 
 @media only screen and (min-width: 30em) {

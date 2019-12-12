@@ -3,6 +3,12 @@ nav a {
   color: #000;
 }
 
+
+.nav-label img:hover {
+  filter: invert(100);
+  transition: 400ms
+}
+
 a li:hover {
   color: #var(--color-primary);
 }
