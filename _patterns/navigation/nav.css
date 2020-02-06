@@ -3,6 +3,9 @@ nav a {
   color: #000;
 }
 
+.zindex {
+  z-index: 3000000;
+}
 
 .nav-label img:hover {
   filter: invert(100);
