@@ -1,7 +1,5 @@
 .bg-3 {
-  background-image: url(/images/footer.jpg);
-  background-position: top;
-  background-size: 60em;
+  background: var(--color-primary);
 }
 
 .gif-video-embed .embed-item {
@@ -20,6 +18,12 @@
   padding-left: none;
 }
 
+.invert {
+
+  filter: invert(100%);
+
+}
+
 .grey {
   color: var(--color-hover);
 }
@@ -33,20 +37,16 @@
 }
 
 i {
-  fill: #000;
+  fill: #fff;
 }
 
 .ltn-svg {
-  color: #000;
-}
-
-.p-4d {
   color: #fff;
 }
 
 .ltn-svg:hover {
-  color: var(--color-primary);
-  fill: var(--color-primary);
+  color: var(--color-hover);
+  fill: var(--color-hover);
 }
 
 .background {

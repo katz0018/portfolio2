@@ -1,5 +1,5 @@
 .width {
-  width: 15em;
+  width: 17em;
   font-weight: lighter;
 }
 
@@ -76,6 +76,10 @@ p {
     left: 20em;
   }
 
+  .pin-c {
+    top: 42%;
+  }
+
 }
 
 @media only screen and (min-width: 80em) {
@@ -96,6 +100,5 @@ p {
     top: -1em;
     left: 20em;
   }
-
 
 }

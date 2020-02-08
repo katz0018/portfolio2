@@ -1,11 +1,10 @@
 :root {
-  --color-primary: #CC2734;
-  --color-secondary: #000000;
-  --color-accent: #84B5C8;
+  --color-primary: #000000;
+  --color-accent: ##6692d4;
   --color-hover: #8D8D8D;
 
-  --font-secondary: Anton, sans-serif;
-  --font-primary: Work-Sans, sans-serif;
+  --font-secondary: neuzeit-grotesk-condensed, sans-serif;
+  --font-primary: neuzeit-grotesk, sans-serif;
 }
 
 h1, h2 {

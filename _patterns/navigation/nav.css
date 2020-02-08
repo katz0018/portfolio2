@@ -1,52 +1,16 @@
 nav a {
   text-decoration: none;
-  color: #000;
+  color: var(--color-primary);
 }
 
 .zindex {
   z-index: 3000000;
 }
 
-.nav-label img:hover {
-  filter: invert(100);
-  transition: 400ms
+li a:hover {
+  color: var(--color-hover);
 }
 
-a li:hover {
-  color: #var(--color-primary);
-}
-
-.main {
-  z-index: 30000;
-  right: 2em;
-}
-
-.nav {
-  display: none;
-}
-
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
-[type="checkbox"] + label::before {
-  top: -17em;
-}
-
-.nav-close {
-  width: 2em;
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-open {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-close {
-  display: block;
-}
-
-.nav-open {
-  width: 2em;
-  display: block;
+div {
+  width: 100%;
 }

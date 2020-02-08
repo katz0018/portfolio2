@@ -1,21 +1,16 @@
-<div class="zindex grid gutter-2">
+<div class="zindex grid gutter-2 grid-middle">
 
-  <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+  <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4">
     {% pattern buttons/logo-btn url="/" %}
   </div>
 
-  <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 text-right">
+  <div class="unit xs-1-2 s-1-2 m-3-4 l-3-4">
 
-    <nav class="main" role="navigation" id="navigation">
-
-      <input type="checkbox" class="nav-check" id="nav-check">
-      <label class="nav-label" for="nav-check"><img class="nav-close" src="/images/exit-nav.svg" alt="exit the navigation"><img class="nav-open" src="/images/nav.svg" alt="open the navigation"></label>
-
-      <ul class="nav pad-t" id="menu">
-        {% pattern buttons/btn-nav url="/index/" text="Home" %}
-        {% pattern buttons/btn-nav url="/#motion-reel" text="Demo Reel" %}
-        {% pattern buttons/btn-nav url="/#projects" text="Projects" %}
-        {% pattern buttons/btn-nav url="/#about-me" text="About Me" %}
+    <nav role="navigation" id="navigation">
+      <ul class="list-group-inline text-left inline-block pad-t" id="menu">
+        <li><a class="color-nav-btn" href="/index">Home</a></li>
+        <li class="gutter"><a class="color-nav-btn" href="/projects/">Work</a></li>
+        <li><a class="color-nav-btn" href="mailto:jazminkatz@gmail.comi?subject=feeback">Contact</a></li>
       </ul>
     </nav>
 
