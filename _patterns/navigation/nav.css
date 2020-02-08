@@ -10,7 +10,3 @@ nav a {
 li a:hover {
   color: var(--color-hover);
 }
-
-div {
-  width: 100%;
-}
