@@ -1,6 +1,9 @@
-<div class="relative block text-center">
+<div class="relative block">
+  <div class="absolute zindex full-width">
+    {% pattern navigation/navigation %}
+  </div>
   <img class="img-flex" src="{{include.url}}" alt="">
-  <div class="absolute pin-c text-center">
+  <div class="absolute pin-cl text-left">
     <div class="gutter-2 flex-row flex-align-center flex-justify">
       <h1 class="max-length gutter-2 push-0">{{include.heading}}</h1>
     </div>
