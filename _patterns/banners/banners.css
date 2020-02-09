@@ -50,6 +50,13 @@ p {
     padding-top: 80%;
   }
 
+  .banner-video-embed .embed-item {
+    width: auto;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   .bg {
     background-image: url(/images/sticker-1.png);
     background-size: auto 10em;
