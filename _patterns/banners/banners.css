@@ -44,6 +44,10 @@ p {
   transform: translateX(-50%);
 }
 
+.break-height {
+  line-height: 1;
+}
+
 @media only screen and (min-width: 30em) {
 
   .banner-video-embed {
