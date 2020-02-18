@@ -14,3 +14,15 @@ li a:hover {
 .full-width {
   width: 100%;
 }
+
+.white-bgcol {
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .white-bgcol {
+    background-color: transparent;
+  }
+
+}
