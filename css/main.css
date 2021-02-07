@@ -16,3 +16,7 @@
 p {
   max-width: 50em;
 }
+
+.match-animation {
+  min-height: 0;
+}
