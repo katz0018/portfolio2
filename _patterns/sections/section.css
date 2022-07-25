@@ -36,6 +36,10 @@
   width: 0em;
 }
 
+.bg-grey {
+  background-color: #e4e4e4;
+}
+
 i {
   fill: #fff;
 }
