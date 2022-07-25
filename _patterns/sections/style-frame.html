@@ -1,26 +1,24 @@
-<div role="complementary" class="bg-grey">
+<div role="complementary" class="pad-b-2 bg-grey">
+
   <div class="pad-t-2 pad-b-2">
     <div class="max-length">
-      <p class="max-length pad-t-2 pad-b-2 push-0 tera italic">{{include.heading}}</p>
+      <p class="max-length pad-t-2 push tera italic">{{include.heading}}</p>
+      <p class="max-length push-0 kilo pad-b-2">{{include.text}}</p>
+
     </div>
 
-    <div class="gutter-2 grid">
-      <img class="unit xs-1 s-1 m-1-3 l-1-3 img-flex" src="{{include.url-1}}" alt="">
-      <img class="unit xs-1 s-1 m-1-3 l-1-3 img-flex" src="{{include.url-2}}" alt="">
-      <img class="unit xs-1 s-1 m-1-3 l-1-3 img-flex" src="{{include.url-3}}" alt="">
+    <div class="grid gutter">
+      <div class="push gutter unit xs-1 s-1 m-1-1 l-1-3">
+        <img class="img-flex" src="{{include.url-1}}" alt="">
+      </div>
+
+      <div class="push gutter unit xs-1 s-1 m-1-1 l-1-3">
+        <img class="img-flex" src="{{include.url-2}}" alt="">
+      </div>
+
+      <div class="push gutter unit xs-1 s-1 m-1-1 l-1-3">
+        <img class="img-flex" src="{{include.url-3}}" alt="">
+      </div>
     </div>
-    <p class="max-length pad-t-2 push-0 kilo pad-b-2">{{include.text}}</p>
   </div>
 </div>
-<!--
-<div class="grey pad-t-2 pad-b-2">
-  <div role="complementary" class="grid">
-    <img class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4 pad-b-1-2 img-flex" src="{{include.url}}" alt="">
-    <img class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4 pad-b-1-2 img-flex" src="{{include.url}}" alt="">
-    <img class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4 pad-b-1-2 img-flex" src="{{include.url}}" alt="">
-  </div>
-  <div>
-    <p class="text-left">We explored three different concepts that all represented the main message oof the newsletter.</p>
-  </div>
-</div>
--->
