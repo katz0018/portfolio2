@@ -20,3 +20,7 @@ p {
 .match-animation {
   min-height: 0;
 }
+
+.bg-grey {
+  background-color: #e4e4e4;
+}
